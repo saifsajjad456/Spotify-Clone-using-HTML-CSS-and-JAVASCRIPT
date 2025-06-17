@@ -1,0 +1,139 @@
+  *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: beige;
+            
+        }
+        nav{
+             font-family: "Audiowide", sans-serif;
+             
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            list-style-type:none;
+            height: 50px;
+            background-color: black;
+            color: aliceblue;
+            
+        }
+        nav ul li{
+            padding: 0 12px;
+        }
+        .brand img{
+            
+            width: 40px;
+            padding: 0 8px;
+           
+        }
+        .brand{
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+             font-weight: bolder;
+        }
+        .container {
+    min-height: 70vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    display: flex;
+    flex-direction: column; /* ✅ stack children vertically */
+    align-items: flex-start; /* align to the left */
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+       .icons{
+        margin-top: 10px;
+
+       }
+       .icons i{
+        cursor: pointer;
+       }
+       
+ 
+    .songitem{
+        height: 50px;
+        display: flex;
+       
+        align-items: center;
+        background-color: white;
+        color: black;
+        
+        width: 95%;
+        border: 3px solid #000000; 
+    border-radius: 40px;
+    padding: 5px 10px;
+   margin-top: 10px;
+   
+   
+  
+    
+    }
+    .songname{
+        flex: 1;
+        text-align: center;
+    }
+    .timestamp{
+        margin-left: 90px;
+    }
+    .timestamp i{
+        cursor: pointer;
+    }
+    .songitem img{
+        margin-right: 100px;
+        
+        border-radius: 50%;
+       
+        width: 50px;
+       
+        
+    }
+   .songinfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.songinfo img {
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+#myProgressBar {
+  flex: 1;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.volume-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#volumeControl {
+  width: 100px;
+  cursor: pointer;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SPOTIFY CLONE</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Best of NCS - No Copyright Sounds</h1>
+      <div class="songlist">
+        <div class="songitem"> <br><br>
+         <img src="songs1.png" alt="1"> 
+         <span class="songname" >
+          Aaj Ki Raat 
+         </span >
+         <span class="songlistplay"><span class="timestamp"  >04:20 <i id="1" class=" songItemPlay fa-solid  fa-circle-play"></i></span>
+        </div>
+      </div>
+      <div class="songlist">
+        <div class="songitem"> <br><br>
+         <img src="songs1.png" alt="1"> 
+         <span class="songname" >
+          Aaj Ki Raat 
+         </span >
+         <span class="songlistplay"><span class="timestamp"  >04:20 <i id="2" class=" songItemPlay fa-solid  fa-circle-play"></i></span>
+        </div>
+      </div><div class="songlist">
+        <div class="songitem"> <br><br>
+         <img src="songs1.png" alt="1"> 
+         <span class="songname">
+          Aaj Ki Raat 
+         </span >
+         <span class="songlistplay"><span class="timestamp"  >04:20 <i id="3" class=" songItemPlay fa-solid  fa-circle-play"></i></span>
+        </div>
+      </div><div class="songlist">
+        <div class="songitem"> <br><br>
+         <img src="songs1.png" alt="1"> 
+         <span class="songname" >
+          Aaj Ki Raat 
+         </span >
+         <span class="songlistplay"><span class="timestamp"  >04:20 <i id="4" class=" songItemPlay fa-solid  fa-circle-play"></i></span>
+        </div>
+      </div><div class="songlist">
+        <div class="songitem"> <br><br>
+         <img src="songs1.png" alt="1"> 
+         <span class="songname" >
+          Aaj Ki Raat 
+         </span >
+         <span class="songlistplay"><span class="timestamp"  >04:20 <i id="5" class=" songItemPlay fa-solid  fa-circle-play"></i></span>
+        </div>
+   
+      </div>
+      
+      <div class="banner"></div>
+    </div>
+    <div class="bottom">
+      <div class="volume-controls">
+        <p>Volume:</p>
+       <input type="range" id="volumeControl" min="0" max="100" value="50" style="width: 100px; margin-right: 10px;" /></div>
+      <input type="range" name="range" id="myProgressBar" min="0" max="100"  value="0"/>
+      <div class="icons">
+        <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+<i class="fa-solid fa-3x fa-circle-play" id="masterplay"></i>
+<i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+
+
+      </div>
+      <div class="songinfo">
+        <img src="playing.gif"  alt="" id="gif"><span id="mastersongname">Aaj Ki Raat</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/66630cc1a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
